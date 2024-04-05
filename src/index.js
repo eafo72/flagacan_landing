@@ -9,7 +9,7 @@ ReactDOM.render(
   <App />,
   document.getElementById('root'),
   function(){
-    $('#preloader').delay(0).fadeOut();
+    $('#preloader').delay(2000).fadeOut();
   }
 );
 

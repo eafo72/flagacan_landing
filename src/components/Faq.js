@@ -19,7 +19,7 @@ function Faq({ afterElment }) {
   
   return (
 
-    <section className={afterElment + " faq-bg"}>
+    <section id="faq" className={afterElment + " faq-bg"}>
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-xl-7 col-lg-9">
