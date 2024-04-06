@@ -1,3 +1,0 @@
-# kutto
-# kutto
-# kutto

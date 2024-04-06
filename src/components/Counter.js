@@ -1,9 +1,18 @@
 import React from 'react';
-
+import Countdown from 'react-countdown-simple';
 
 
 function Counter() {
    
+  /*
+  const deadLine = new Date(
+    new Date().setHours(new Date().getHours() + 1)
+  ).toISOString()
+ */
+  const deadLine = new Date('2024-05-05').toISOString()
+
+  const renderer = ({ days, hours, minutes, seconds }) =>
+  <div style={{color:"#f04336"}}>{days} días {hours}h : {minutes}m : {seconds}s</div>
 
   return (
     <section className="counter-area counter-bg" style={{backgroundImage:"url('img/bg/counter_bg.jpg')"}}>
@@ -11,35 +20,22 @@ function Counter() {
       <div className="row justify-content-center">
         <div className="col-xl-6 col-lg-8">
           <div className="counter-title text-center mb-65">
-            <h6 className="sub-title">Why Choose Us?</h6>
-            <h2 className="title">Best Service to Breeds Your Loved Dog Explore</h2>
+            <h6 className="sub-title">Cuenta regresiva</h6>
+            <h2 className="title">Date prisa aún hay tiempo</h2>
           </div>
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-lg-3 col-md-4 col-sm-6">
+        <div className="col-lg-12 col-md-12 col-sm-12">
+
           <div className="counter-item">
-            <h2 className="count"><span className="odometer">75</span>%</h2>
-            <p>dogs are first bred</p>
+            <h2 className="count">
+            
+              <Countdown targetDate={deadLine} renderer={renderer} />
+            
+            </h2>
           </div>
-        </div>
-        <div className="col-lg-3 col-md-4 col-sm-6">
-          <div className="counter-item">
-            <h2 className="count"><span className="odometer">259</span>+</h2>
-            <p>Most dogs are first</p>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-4 col-sm-6">
-          <div className="counter-item">
-            <h2 className="count"><span className="odometer">39</span>K</h2>
-            <p>Dog Breeding</p>
-          </div>
-        </div>
-        <div className="col-lg-3 col-md-4 col-sm-6">
-          <div className="counter-item">
-            <h2 className="count"><span className="odometer">45</span>+</h2>
-            <p>Years Of History</p>
-          </div>
+
         </div>
       </div>
     </div>
