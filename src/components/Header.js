@@ -95,7 +95,9 @@ if ($('.menu-area li.menu-item-has-children ul').length) {
           <div className="container custom-container">
             <div className="row">
               <div className="col-12">
+                {/*
                 <div className="mobile-nav-toggler"><i className="fas fa-bars" /></div>
+                */}      
                 <div className="menu-wrap" style={{margin:"25px 0"}}>
                   <nav className="menu-nav show">
                     <div className="logo"><Link to="/"><img src="img/logo/logo.png" alt="" /></Link></div>

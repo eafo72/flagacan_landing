@@ -336,7 +336,8 @@
     max-width: 720px;
 }
 .menu-area {
-	padding: 25px 0;
+	/*padding: 25px 0;*/
+    padding: 0;
 }
 .menu-nav {
 	justify-content: space-between;

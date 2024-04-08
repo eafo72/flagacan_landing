@@ -21,7 +21,7 @@ function Counter() {
         <div className="col-xl-6 col-lg-8">
           <div className="counter-title text-center mb-65">
             <h6 className="sub-title">Cuenta regresiva</h6>
-            <h2 className="title">Date prisa aún hay tiempo</h2>
+            <h2 className="title">Date prisa, aún hay tiempo</h2>
           </div>
         </div>
       </div>
