@@ -100,7 +100,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Nunito', sans-serif;
-	color: #0a303a;
+	color: #0a1e6d;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 900;
@@ -306,7 +306,7 @@ label {
 .header-top-area {
     max-width: 1835px;
     margin: 0 auto;
-    background: #f4f1ea;
+    background: #e1a798;
     border-radius: 0 0 20px 20px;
     padding: 9px 0;
 }
@@ -317,7 +317,7 @@ label {
 }
 .header-top-left ul li {
     font-size: 13px;
-    color: #0a303a;
+    color: #0a1e6d;
     margin-right: 15px;
 }
 .header-top-left ul li i {
@@ -333,10 +333,10 @@ label {
 }
 .header-top-social .follow {
 	font-size: 14px;
-	color: #0a303a;
+	color: #0a1e6d;
 }
 .header-top-social li a {
-	color: #0a303a;
+	color: #0a1e6d;
 	font-size: 12px;
 }
 .header-top-social li + li {
@@ -368,7 +368,7 @@ label {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: center;
 }
 .navbar-wrap {
 	display: flex;
@@ -454,7 +454,7 @@ label {
 	margin-left: 0;
 }
 .header-action > ul > li > a {
-    color: #0a303a;
+    color: #0a1e6d;
     font-size: 20px;
 }
 .header-action ul li a i {
@@ -473,7 +473,7 @@ label {
     font-size: 11px;
     font-weight: 700;
     line-height: 16px;
-    color: #0a303a;
+    color: #0a1e6d;
     text-align: center;
 	cursor: pointer;
 }
@@ -934,7 +934,7 @@ label {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: -1px;
-	color: #0a303a;
+	color: #0a1e6d;
 }
 .search-form {
 	position: relative;
@@ -1503,7 +1503,7 @@ label {
 }
 .adoption-list ul li {
     font-size: 16px;
-    color: #0a303a;
+    color: #0a1e6d;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -1829,7 +1829,7 @@ label {
 .faq-area.faq-bg::after {
 	top: auto;
 	bottom: 0;
-	background-image: url(../img/bg/faq_bg_shape02.png);
+	background-image: url(../img/bg/testi_bg_shape02.png);
 }
 .faq-area-two.faq-bg::after {
 	top: auto;
@@ -1880,7 +1880,7 @@ label {
     text-align: left;
     font-size: 20px;
     font-weight: 900;
-    color: #0a303a;
+    color: #0a1e6d;
     border: none;
     background: transparent;
     width: 100%;
@@ -2128,7 +2128,7 @@ label {
 }
 .adoption-rating ul .price span,
 .adoption-shop-content .title a:hover {
-	color: #0a303a;
+	color: #0a1e6d;
 }
 .adoption-shop-item:hover .adoption-shop-thumb::before {
 	opacity: .57;
@@ -2156,7 +2156,7 @@ label {
     top: 0;
     width: 100%;
     height: 24px;
-    background-image: url(../img/bg/testi_bg_shape01.png);
+    /*background-image: url(../img/bg/testi_bg_shape01.png);*/
     background-repeat: repeat;
     background-position: center;
 	z-index: 1;
@@ -2284,7 +2284,7 @@ label {
     transition: all 0.3s ease-out 0s;
 }
 .shop-cat-list ul li a:hover {
-    color: #0a303a;
+    color: #0a1e6d;
     background: #f5f2eb;
 }
 .shop-cat-list ul li a:hover span {
@@ -2374,7 +2374,7 @@ label {
     cursor: pointer;
     min-width: 70px;
     padding: 9px 12px;
-    color: #0a303a;
+    color: #0a1e6d;
     font-size: 13px;
     text-align: center;
     background: #f5f2eb;
@@ -2447,7 +2447,7 @@ label {
 .shop-showing-result p {
     font-size: 13px;
     margin-bottom: 0;
-    color: #0a303a;
+    color: #0a1e6d;
     font-weight: 500;
 }
 .shop-showing-result {
@@ -2459,7 +2459,7 @@ label {
     cursor: inherit;
     font-size: 13px;
     font-weight: 500;
-    color: #0a303a;
+    color: #0a1e6d;
     margin-right: 10px;
 }
 .shop-show-list form > .selected {
@@ -2677,7 +2677,7 @@ label {
     display: block;
     font-size: 14px;
     font-weight: 600;
-    color: #0a303a;
+    color: #0a1e6d;
 }
 .shop-details-dimension ul,
 .shop-details-color ul,
@@ -2797,7 +2797,7 @@ label {
     border-radius: 5px;
     font-size: 13px;
     font-weight: 600;
-    color: #0a303a;
+    color: #0a1e6d;
     padding: 12px 16px;
     min-width: 145px;
     justify-content: center;
@@ -2823,7 +2823,7 @@ label {
 .shop-details-bottom ul li {
     font-size: 16px;
     font-weight: 600;
-    color: #0a303a;
+    color: #0a1e6d;
     flex-wrap: wrap;
 }
 .shop-details-bottom ul li  > span {
@@ -2878,7 +2878,7 @@ label {
     border: none;
     border-radius: 0;
     background: transparent;
-    color: #0a303a;
+    color: #0a1e6d;
     padding: 0 0 12px;
     position: relative;
     font-size: 18px;
@@ -2967,7 +2967,7 @@ label {
 	display: block;
 }
 .product-desc-review .right-rc a {
-	color: #0a303a;
+	color: #0a1e6d;
     font-size: 14px;
     font-weight: 500;
 }
@@ -3041,7 +3041,7 @@ label {
     margin-right: 8px;
 }
 .blog-post-tag a:hover {
-	color: #0a303a;
+	color: #0a1e6d;
 }
 .blog-post-meta ul {
     display: flex;
@@ -3163,7 +3163,7 @@ label {
 }
 .blog-sidebar .sidebar-title {
     font-size: 20px;
-    color: #0a303a;
+    color: #0a1e6d;
     font-weight: 800;
     margin-bottom: 25px;
     position: relative;
@@ -3306,7 +3306,7 @@ label {
     margin: 31px 0 28px;
     font-size: 20px;
     font-weight: 600;
-    color: #0a303a;
+    color: #0a1e6d;
     font-style: italic;
     line-height: 1.6;
     padding: 40px 40px 40px 70px;
@@ -3328,7 +3328,7 @@ label {
 .blog-details-content blockquote footer {
     font-size: 14px;
     font-style: normal;
-    color: #0a303a;
+    color: #0a1e6d;
     font-weight: 500;
     position: relative;
     padding-left: 30px;
@@ -3363,7 +3363,7 @@ label {
     border-radius: 50%;
 }
 .blog-details-list ul li a {
-    color: #0a303a;
+    color: #0a1e6d;
     font-size: 16px;
     font-weight: 500;
     text-decoration: underline;
@@ -3514,7 +3514,7 @@ label {
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 700;
-    color: #0a303a;
+    color: #0a1e6d;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 40px;
     padding-bottom: 12px;
@@ -3614,7 +3614,7 @@ label {
 .contact-form .form-grp label {
     font-size: 14px;
     font-weight: 500;
-    color: #0a303a;
+    color: #0a1e6d;
     margin-bottom: 10px;
     opacity: 1;
 }
@@ -3758,12 +3758,12 @@ label {
 
 /* 20. Newsletter */
 .newsletter-wrap {
-    background-image: url(../img/bg/newsletter_bg.jpg);
+    background-image: url(../img/bg/register_bg.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
-    border: 1.5px solid #0a303a;
+    /*border: 1.5px solid #0a303a;*/
     border-radius: 15px;
     padding: 65px 85px 65px 60px;
     position: relative;
@@ -3927,7 +3927,7 @@ label {
 .footer-social ul li a {
     display: block;
     font-size: 16px;
-    color: #0a303a;
+    color: #0a1e6d;
 }
 .footer-widget .fw-title {
     font-size: 20px;
@@ -4065,6 +4065,13 @@ label {
     min-width: 120px;
 }
 
+.slide1{
+    background-image: url('../img/slider/slider_bg01.jpg');
+}
+
+.slide2{
+    background-image: url('../img/slider/slider_bg02.jpg');
+}
 
 
 

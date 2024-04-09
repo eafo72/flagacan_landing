@@ -9,10 +9,10 @@ function Counter() {
     new Date().setHours(new Date().getHours() + 1)
   ).toISOString()
  */
-  const deadLine = new Date('2024-05-05').toISOString()
+  const deadLine = new Date('2024-04-29').toISOString()
 
   const renderer = ({ days, hours, minutes, seconds }) =>
-  <div style={{color:"#f04336"}}>{days} días {hours}h : {minutes}m : {seconds}s</div>
+  <div style={{color:"#e1a798"}}>{days} días {hours}h : {minutes}m : {seconds}s</div>
 
   return (
     <section className="counter-area counter-bg" style={{backgroundImage:"url('img/bg/counter_bg.jpg')"}}>

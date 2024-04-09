@@ -37,9 +37,9 @@ function Faq({ afterElment }) {
         <div className="col-lg-6">
           
           <div className="faq-img-wrap">
-            <img src="img/images/faq_tv.png" className="img-frame" alt="" />
-            <img src="img/images/faq_img.png" className="main-img" alt="" />
-            <Link to="/https://www.youtube.com/watch?v=XdFfCPK5ycw" className="popup-video" > </Link>
+
+            <img src="img/images/bases.png" className="img-frame" alt="" />
+            
           </div>
           
         </div>
@@ -56,13 +56,21 @@ function Faq({ afterElment }) {
                 <div className="card-header" id="headingOne">
                   <h2 className="mb-0">
                     <button className="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Lorem Ipsum
+                    ¿Cómo Participar? 
                     </button>
                   </h2>
                 </div>
                 <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div className="card-body">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit litora, cum tortor elementum pretium nulla fames turpis aliquet, cubilia rhoncus porttitor dictum blandit inceptos vestibulum. Sociosqu porttitor ultricies metus magnis aliquet taciti tempor mi tristique, mattis ut litora magna ligula dapibus imperdiet maecenas sapien, vel tincidunt eros faucibus senectus cursus luctus egestas. Vehicula aliquet sociis nam sollicitudin nulla sociosqu maecenas diam, condimentum enim magnis arcu semper sem tincidunt nisi iaculis, facilisi inceptos feugiat mollis class torquent nibh.
+                  (importante realizar los siguientes pasos)<br/>
+                  <ul style={{listStyle:"none"}}>
+                    <li>1. Estar en la zona metropolitana de Guadalajara</li>
+                    <li>2. Síguenos en nuestra cuenta de Instagram y Facebook</li>
+                    <li>3. Sube la mejor foto de tu peludo amigo a Instagram y etiqueta la cuenta oficial de @Flagacan con el hashtag #momentosflagacan</li>
+                    <li>4. Comparte el link de tu publicación en la página del concurso www.landing.flagasamascotas.com para registrar la foto de tu lomito</li>
+                    <li>5. ¡Listo! Sigue en esta misma página el avance del concurso</li>
+                  </ul>
+
                   </div>
                 </div>
               </div>
@@ -70,13 +78,14 @@ function Faq({ afterElment }) {
                 <div className="card-header" id="headingTwo">
                   <h2 className="mb-0">
                     <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Lorem Ipsum
+                    ¿Cómo Ganar?
                     </button>
                   </h2>
                 </div>
                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                   <div className="card-body">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit litora, cum tortor elementum pretium nulla fames turpis aliquet, cubilia rhoncus porttitor dictum blandit inceptos vestibulum. Sociosqu porttitor ultricies metus magnis aliquet taciti tempor mi tristique, mattis ut litora magna ligula dapibus imperdiet maecenas sapien, vel tincidunt eros faucibus senectus cursus luctus egestas. Vehicula aliquet sociis nam sollicitudin nulla sociosqu maecenas diam, condimentum enim magnis arcu semper sem tincidunt nisi iaculis, facilisi inceptos feugiat mollis class torquent nibh.
+                  Invita a tus amigos, familiares y seguidores a votar por tu foto. ¡La foto con el mayor número de likes al 29 de abril será la ganadora!<br/>
+                  El día 30 anunciaremos al ganador en nuestras redes y la página del concurso.
                   </div>
                 </div>
               </div>
@@ -84,13 +93,16 @@ function Faq({ afterElment }) {
                 <div className="card-header" id="headingThree">
                   <h2 className="mb-0">
                     <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Lorem Ipsum
+                    Premio
                     </button>
                   </h2>
                 </div>
                 <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                   <div className="card-body">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit litora, cum tortor elementum pretium nulla fames turpis aliquet, cubilia rhoncus porttitor dictum blandit inceptos vestibulum. Sociosqu porttitor ultricies metus magnis aliquet taciti tempor mi tristique, mattis ut litora magna ligula dapibus imperdiet maecenas sapien, vel tincidunt eros faucibus senectus cursus luctus egestas. Vehicula aliquet sociis nam sollicitudin nulla sociosqu maecenas diam, condimentum enim magnis arcu semper sem tincidunt nisi iaculis, facilisi inceptos feugiat mollis class torquent nibh.
+                  El dueño del perro cuya foto haya recibido la mayor cantidad de likes ganará alimento Flagacan equivalente a 3 meses para su querido peludo.<br/>
+                  Fecha de Inicio: 10 de abril<br/>
+                  Fecha de Finalización: 20 de abril se cierra el conteo y el 21 se anuncia el ganador<br/>
+                  ¡No pierdas la oportunidad de hacer brillar a tu peludo amigo y ganar un gran premio con Flagacan!<br/>
                   </div>
                 </div>
               </div>

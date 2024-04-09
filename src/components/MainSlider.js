@@ -20,7 +20,7 @@ function MainSlider() {
     <section className="slider-area">
     <Slider className="slider-active" {...settings}>
       <div>
-        <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: "url('img/slider/slider_bg01.jpg')"}}>
+        <div className="single-slider slider-bg d-flex align-items-center slide1" >
           <div className="container custom-container">
             <div className="row">
               <div className="col-xl-5 col-lg-7 col-md-10">
@@ -40,7 +40,7 @@ function MainSlider() {
       </div>
 
       <div>
-        <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: "url('img/slider/slider_bg02.jpg')"}}>
+        <div className="single-slider slider-bg d-flex align-items-center slide2" >
           <div className="container custom-container">
             <div className="row">
               <div className="col-xl-5 col-lg-7 col-md-10">

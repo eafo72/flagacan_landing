@@ -16,7 +16,7 @@ function Footer() {
 
           <div className="col-3">
             <div className="footer-widget">
-              <h4 className="fw-title">Instagram</h4>
+              <h4 className="fw-title">Fotos participantes</h4>
               <div className="fw-insta">
                 <ul>
                   <li><a href="/#"><img src="img/images/insta_img01.png" alt="" /></a></li>

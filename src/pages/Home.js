@@ -17,7 +17,6 @@ function Home() {
 				<MainSlider/>
 				<Counter/>
 				<Faq afterElment="faq-area"/>
-				<Brand/>
 				<Newsletter/>
 				
 		</main>
