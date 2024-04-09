@@ -67,7 +67,7 @@ function Faq({ afterElment }) {
                     <li>1. Estar en la zona metropolitana de Guadalajara</li>
                     <li>2. Síguenos en nuestra cuenta de Instagram y Facebook</li>
                     <li>3. Sube la mejor foto de tu peludo amigo a Instagram y etiqueta la cuenta oficial de @Flagacan con el hashtag #momentosflagacan</li>
-                    <li>4. Regístrate en la página del concurso <a href="https://www.landing.flagasamascotas.com" target="_blank" rel="noreferrer">www.landing.flagasamascotas.com</a></li>
+                    <li>4. Regístrate en la página del concurso <a href="https://landing.flagasamascotas.com" target="_blank" rel="noreferrer">landing.flagasamascotas.com</a></li>
                     <li>5. ¡Listo! Estaremos mostrando al ganador en la página y nuestras redes</li>
                   </ul>
 
