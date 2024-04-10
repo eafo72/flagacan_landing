@@ -5,6 +5,7 @@ import Faq from '../components/Faq'
 import Brand from '../components/Brand'
 import Newsletter from '../components/NewsLetter'
 
+import { Toaster } from 'sonner';
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
 
 	
 		  <main>
+			 	<Toaster richColors position="top-right"/>
 				<MainSlider/>
 				<Counter/>
 				<Faq afterElment="faq-area"/>

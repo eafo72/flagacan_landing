@@ -14,19 +14,12 @@ function Footer() {
 
 
 
-          <div className="col-3">
-            <div className="footer-widget">
+          <div className="col-12">
+            <div align="center" className="footer-widget">
               <h4 className="fw-title">Fotos participantes</h4>
-              <div className="fw-insta">
-                <ul>
-                  <li><a href="/#"><img src="img/images/insta_img01.png" alt="" /></a></li>
-                  <li><a href="/#"><img src="img/images/insta_img02.png" alt="" /></a></li>
-                  <li><a href="/#"><img src="img/images/insta_img03.png" alt="" /></a></li>
-                  <li><a href="/#"><img src="img/images/insta_img04.png" alt="" /></a></li>
-                  <li><a href="/#"><img src="img/images/insta_img05.png" alt="" /></a></li>
-                  <li><a href="/#"><img src="img/images/insta_img06.png" alt="" /></a></li>
-                </ul>
-              </div>
+              <div style={{padding:"60px 0"}}>
+                <h4>Aquí anunciaremos al ganador</h4>
+              </div>  
             </div>
           </div>
 
@@ -39,26 +32,19 @@ function Footer() {
     <div className="copyright-area">
       <div className="container">
         <div className="row">
-          <div className="col-md-8">
+
+          <div className="col-md-7">
             <div className="copyright-text">
               <p>Copyright © 2024 Flagasa. Todos los derechos reservados.</p>
             </div>
           </div>
-          <div className="col-md-4 d-none d-md-block">
-            {/*
-            <div className="footer-lang">
-              <div className="dropdown">
-                <button className="dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img src="img/icon/united-states.png" alt="" /> English
-                </button>
-                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                  <Link className="dropdown-item" to="/"><img src="img/icon/russia.png" alt="" />Russia</Link>
-                  <Link className="dropdown-item" to="/"><img src="img/icon//thailand.png" alt="" />Thailand</Link>
-                  <Link className="dropdown-item" to="/"><img src="img/icon/india.png" alt="" />India</Link>
-                </div>
-              </div>
-            </div>
-            */}
+          <div className="col-md-5">
+              <ul className="header-top-social">
+                <li style={{color:"#d5d5d5"}} className="follow">Siguenos en :</li>
+                <li><a href="https://www.facebook.com/profile.php?id=61555959194964&mibextid=ZbWKwL" target="_blank"><i style={{color:"#d5d5d5"}} className="fab fa-facebook-f" /></a></li>
+                <li><a href="https://www.instagram.com/flagacan" target="_blank"><i style={{color:"#d5d5d5"}} className="fab fa-instagram" /></a></li>
+                <li><a href="https://www.tiktok.com/@flagacan" target="_blank"><i style={{color:"#d5d5d5"}} className="fab fa-tiktok" /></a></li>
+              </ul>
           </div>
         </div>
       </div>

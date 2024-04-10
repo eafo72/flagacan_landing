@@ -12,7 +12,7 @@ function Counter() {
   const deadLine = new Date('2024-04-20').toISOString()
 
   const renderer = ({ days, hours, minutes, seconds }) =>
-  <div style={{color:"#e1a798"}}>{days} días {hours}h : {minutes}m : {seconds}s</div>
+  <div style={{color:"#FD8C6E"}}>{days} días {hours}h : {minutes}m : {seconds}s</div>
 
   return (
     <section className="counter-area counter-bg" style={{backgroundImage:"url('img/bg/counter_bg.jpg')"}}>

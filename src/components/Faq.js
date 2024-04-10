@@ -62,7 +62,7 @@ function Faq({ afterElment }) {
                 </div>
                 <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                   <div className="card-body">
-                  (importante realizar los siguientes pasos)<br/>
+                  (Importante realizar los siguientes pasos)<br/>
                   <ul style={{listStyle:"none"}}>
                     <li>1. Estar en la zona metropolitana de Guadalajara</li>
                     <li>2. Síguenos en nuestra cuenta de Instagram y Facebook</li>

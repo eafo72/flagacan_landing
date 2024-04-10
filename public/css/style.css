@@ -207,7 +207,7 @@ label {
 .btn {
     -moz-user-select: none;
     user-select: none;
-    background: #e1a798 none repeat scroll 0 0;
+    background: #FD8C6E none repeat scroll 0 0;
     border: medium none;
     border-radius: 3px;
     color: #fff;
@@ -274,7 +274,7 @@ label {
 	color: #fff;
 	text-align: center;
 	cursor: pointer;
-	background: #e1a798;
+	background: #FD8C6E;
 	transition: 1s ease;
 	border: none;
     opacity: 0;
@@ -306,7 +306,7 @@ label {
 .header-top-area {
     max-width: 1835px;
     margin: 0 auto;
-    background: #e1a798;
+    background: #FD8C6E;
     border-radius: 0 0 20px 20px;
     padding: 9px 0;
 }
@@ -413,7 +413,7 @@ label {
     transition: all 0.3s ease-out 0s;
     top: 31px;
     margin: 0 auto;
-    background: #e1a798;
+    background: #FD8C6E;
     border-radius: 10px 10px 20px 20px;
     opacity: 0;
     z-index: -1;
@@ -537,7 +537,7 @@ label {
 	line-height: 1.35;
 }
 .minicart .cart-content h4 a:hover {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .minicart .cart-price span {
     color: #676565;
@@ -559,7 +559,7 @@ label {
 	color: #676565;
 }
 .minicart .del-icon > a:hover {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .total-price {
     border-top: 1px solid #e8e8e8;
@@ -575,7 +575,7 @@ label {
 	margin-bottom: 0;
 }
 .header-shop-cart .minicart .checkout-link a {
-	background: #e1a798;
+	background: #FD8C6E;
 	color: #fff;
 	display: block;
 	font-weight: 500;
@@ -649,7 +649,7 @@ label {
     width: 0;
     height: 2px;
     top: 20px;
-	background: #e1a798;
+	background: #FD8C6E;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -663,7 +663,7 @@ label {
     padding-left: 45px;
 }
 .navbar-wrap > ul > li .submenu li.active > a {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .navbar-wrap ul li:hover > .submenu {
 	opacity: 1;
@@ -904,7 +904,7 @@ label {
     font-size: 30px;
     cursor: pointer;
     line-height: 1;
-    color: #e1a798;
+    color: #FD8C6E;
     display: none;
     margin-top: 3px;
 }
@@ -942,7 +942,7 @@ label {
 .search-form input {
     width: 100%;
     border: none;
-    border-bottom: 1px solid #e1a798;
+    border-bottom: 1px solid #FD8C6E;
     padding: 10px 50px 20px;
     text-align: center;
     font-weight: 500;
@@ -959,7 +959,7 @@ label {
     background: transparent;
     border: 0;
     font-size: 25px;
-    color: #e1a798;
+    color: #FD8C6E;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -968,7 +968,7 @@ label {
 	top: 5%;
 	right: 5%;
 	font-size: 30px;
-	color: #e1a798;
+	color: #FD8C6E;
 	cursor: pointer;
 }
 
@@ -989,7 +989,7 @@ label {
     line-height: 1.1;
     clip-path: polygon(0 0, 100% 0, 91% 100%, 0% 100%);
     padding: 13px 40px 13px 20px;
-    background: #e1a798;
+    background: #FD8C6E;
     border-radius: 15px 15px 40px 15px;
 }
 .breadcrumb-content .breadcrumb {
@@ -1010,14 +1010,14 @@ label {
     font-size: 16px;
 }
 .breadcrumb-content .breadcrumb li a {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .breadcrumb-content .breadcrumb-item+.breadcrumb-item {
     padding-left: 10px;
 }
 .breadcrumb-content .breadcrumb-item+.breadcrumb-item::before {
     padding-right: 10px;
-    color: #e1a798;
+    color: #FD8C6E;
     content: "|";
 }
 
@@ -1192,7 +1192,7 @@ label {
     align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
-    background: #e1a798;
+    background: #FD8C6E;
     position: relative;
     margin-left: 80px;
 	background-image: url(../img/images/find_shape.png);
@@ -1207,7 +1207,7 @@ label {
     width: 85px;
     height: 100%;
     clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 100% 50%, 0% 0%);
-    background: #e1a798;
+    background: #FD8C6E;
     z-index: 1;
 }
 .find-wrap .find-category ul li {
@@ -1272,7 +1272,7 @@ label {
 .other-find .dropdown .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #e1a798;
+    background-color: #FD8C6E;
 }
 
 /* 8. Counter */
@@ -1280,7 +1280,7 @@ label {
     font-size: 24px;
     font-weight: 800;
     line-height: 1;
-    color: #e1a798;
+    color: #FD8C6E;
     margin-bottom: 18px;
 }
 .counter-title .title {
@@ -1324,7 +1324,7 @@ label {
     line-height: 26px;
 }
 .counter-item:hover .count {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 
 /* 9. Adoption */
@@ -1359,7 +1359,7 @@ label {
     line-height: 1.2;
 }
 .adoption-content .title span {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .adoption-content p {
     line-height: 28px;
@@ -1390,7 +1390,7 @@ label {
     top: 8%;
     width: 45px;
     height: 45px;
-    background: #e1a798;
+    background: #FD8C6E;
     color: #fff;
     line-height: 45px;
     border-radius: 50%;
@@ -1411,7 +1411,7 @@ label {
     margin-bottom: 9px;
 }
 .adopt-content .adopt-date i {
-    color: #e1a798;
+    color: #FD8C6E;
     margin-right: 7px;
 }
 .adopt-content .title {
@@ -1420,7 +1420,7 @@ label {
     margin-bottom: 6px;
 }
 .adopt-content .title a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .adopt-content p {
     font-size: 14px;
@@ -1428,7 +1428,7 @@ label {
     margin-bottom: 17px;
 }
 .adopt-content .read-more {
-    color: #e1a798;
+    color: #FD8C6E;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -1495,7 +1495,7 @@ label {
     font-size: 24px;
     font-weight: 800;
     line-height: 1;
-    color: #e1a798;
+    color: #FD8C6E;
     margin-bottom: 12px;
 }
 .inner-breeder-area .adoption-content p {
@@ -1512,7 +1512,7 @@ label {
     margin-top: 13px;
 }
 .adoption-list ul li i {
-    color: #e1a798;
+    color: #FD8C6E;
     margin-right: 15px;
     display: block;
     line-height: 0;
@@ -1554,7 +1554,7 @@ label {
 .breeder-info-item span {
     display: block;
     font-size: 16px;
-    color: #e1a798;
+    color: #FD8C6E;
     font-weight: 700;
     font-family: 'Nunito', sans-serif;
 }
@@ -1607,7 +1607,7 @@ label {
     top: 50%;
     transform: translateY(-50%);
     border: none;
-    background: #e1a798;
+    background: #FD8C6E;
     color: #fff;
     width: 47px;
     height: 50px;
@@ -1717,7 +1717,7 @@ label {
     font-size: 24px;
     font-weight: 800;
     line-height: 1;
-    color: #e1a798;
+    color: white;
     margin-bottom: 12px;
 }
 .section-title .title {
@@ -1748,10 +1748,10 @@ label {
     background-position: center;
     background-repeat: no-repeat;
     line-height: 1;
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .breed-services-item .content .title a:hover {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .breed-services-info {
     background-position: center;
@@ -1780,7 +1780,7 @@ label {
 }
 .breed-services-info .btn {
     background: #fff;
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .breed-services-info .btn img {
 	-webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
@@ -1822,7 +1822,7 @@ label {
 
 /* 12. FAQ */
 .faq-bg {
-    background: #d5e6eb;
+    background: #FD8C6E;
     position: relative;
     padding: 110px 0 110px;
 }
@@ -1910,7 +1910,7 @@ label {
 .faq-wrapper .card-body {
     padding: 20px 30px 30px 30px;
     font-size: 16px;
-    color: #676666;
+    color: #323232;
     line-height: 28px;
     border-top: 2px solid #eef5f7;
 }
@@ -1928,12 +1928,12 @@ label {
     font-weight: 900;
     color: #fff;
     border-radius: 47% 53% 61% 39% / 38% 38% 62% 62%;
-    background: #e1a798;
+    background: #FD8C6E;
     transition: .3s linear;
 }
 .faq-wrapper .card .card-header button.collapsed:after {
 	content: "+";
-    color: #e1a798;
+    color: #FD8C6E;
     font-size: 24px;
     background: #d5e6eb;
 }
@@ -2087,7 +2087,7 @@ label {
 .adoption-shop-content .title {
     text-align: center;
     font-size: 22px;
-    color: #e1a798;
+    color: #FD8C6E;
     margin-bottom: 17px;
 }
 .adoption-meta ul,
@@ -2110,7 +2110,7 @@ label {
 	color: #676666;
 }
 .adoption-meta ul li a:hover {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .adoption-meta ul li i {
 	margin-right: 6px;
@@ -2185,7 +2185,7 @@ label {
     right: 9%;
     font-family: "Flaticon";
     font-size: 42px;
-    color: #e1a798;
+    color: #FD8C6E;
     line-height: 1;
     z-index: -1;
 }
@@ -2237,7 +2237,7 @@ label {
     transition: .3s linear;
 }
 .testimonial-active .slick-dots .slick-active button {
-	background: #e1a798;
+	background: #FD8C6E;
 	width: 40px;
 }
 
@@ -2288,7 +2288,7 @@ label {
     background: #f5f2eb;
 }
 .shop-cat-list ul li a:hover span {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .shop-brand-list ul li + li {
     margin-top: 7px;
@@ -2317,7 +2317,7 @@ label {
     transition: all 0.3s ease-out 0s;
 }
 .shop-brand-list ul li a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .price_filter .ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
 	background: #ebebeb none repeat scroll 0 0;
@@ -2328,7 +2328,7 @@ label {
 	margin-left: auto;
 }
 .price_filter .ui-slider-range {
-	background: #e1a798 none repeat scroll 0 0;
+	background: #FD8C6E none repeat scroll 0 0;
 	border-radius: 2px;
 }
 .price_filter .ui-slider-handle.ui-state-default.ui-corner-all {
@@ -2339,7 +2339,7 @@ label {
     background: #fff;
     border-radius: 50px;
     margin-left: 0;
-    border: 3px solid #e1a798;
+    border: 3px solid #FD8C6E;
 }
 .price_filter .ui-slider-handle.ui-state-default.ui-corner-all:focus {
 	outline: none;
@@ -2385,8 +2385,8 @@ label {
 }
 .price_slider_amount > input[type="submit"]:hover {
     color: #fff;
-    background: #e1a798;
-    border-color: #e1a798;
+    background: #FD8C6E;
+    border-color: #FD8C6E;
 }
 .price_filter {
     margin-top: 28px;
@@ -2433,9 +2433,9 @@ label {
     border-radius: 3px;
 }
 .shop-grid-menu ul li.active a {
-    border-color: #e1a798;
+    border-color: #FD8C6E;
     color: #fff;
-    background: #e1a798;
+    background: #FD8C6E;
 }
 .shop-grid-menu,
 .shop-showing-result,
@@ -2537,7 +2537,7 @@ label {
     margin-bottom: 0;
 }
 .shop-content .title a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .shop-content-bottom {
     display: flex;
@@ -2554,7 +2554,7 @@ label {
 .shop-content-bottom .add-cart > a {
     font-size: 14px;
     font-weight: 700;
-    color: #e1a798;
+    color: #FD8C6E;
     display: block;
     line-height: 1;
 }
@@ -2585,8 +2585,8 @@ label {
 }
 .shop-pagination ul li.active a,
 .shop-pagination ul li a:hover {
-    border-color: #e1a798;
-    background: #e1a798;
+    border-color: #FD8C6E;
+    background: #FD8C6E;
     color: #fff;
 }
 .shop-details-wrap .col-7 {
@@ -2659,7 +2659,7 @@ label {
 }
 .shop-details-price .stock-status {
     font-size: 13px;
-    color: #e1a798;
+    color: #FD8C6E;
     margin-bottom: 0;
     margin-left: 10px;
 }
@@ -2816,8 +2816,8 @@ label {
     background: #222;
 }
 .shop-details-quantity > a:hover {
-    background: #e1a798;
-    border-color: #e1a798;
+    background: #FD8C6E;
+    border-color: #FD8C6E;
     color: #fff;
 }
 .shop-details-bottom ul li {
@@ -2849,10 +2849,10 @@ label {
     margin-right: 4px;
 }
 .shop-details-bottom ul li > a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .shop-details-bottom ul li.sd-share > a:hover {
-    background: #e1a798;
+    background: #FD8C6E;
     border-color: #ff4b36;
     color: #fff;
 }
@@ -2886,7 +2886,7 @@ label {
     font-family: 'Nunito', sans-serif;
 }
 .product-desc-wrap .nav-tabs .nav-link.active {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .product-desc-wrap .nav-tabs .nav-link::after {
     content: "";
@@ -2895,7 +2895,7 @@ label {
     bottom: -1px;
     width: 100%;
     height: 2px;
-    background: #e1a798;
+    background: #FD8C6E;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -2972,7 +2972,7 @@ label {
     font-weight: 500;
 }
 .product-desc-review .right-rc a:hover {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .product-desc-wrap .tab-pane.active {
     animation: slide-down .3s ease-out;
@@ -3031,7 +3031,7 @@ label {
     box-shadow: 0px 6px 17.64px 0.36px rgba(164, 162, 162, 0.48);
     border-radius: 7px;
     margin-left: 5px;
-    color: #e1a798;
+    color: #FD8C6E;
     font-size: 18px;
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
@@ -3066,7 +3066,7 @@ label {
 }
 .blog-post-meta ul li a:hover,
 .blog-post-content .title a:hover {
-	color: #e1a798;
+	color: #FD8C6E;
 }
 .blog-post-meta {
     margin-bottom: 10px;
@@ -3080,7 +3080,7 @@ label {
 }
 .blog-post-content .read-more,
 .standard-blog-content .read-more {
-    color: #e1a798;
+    color: #FD8C6E;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -3112,7 +3112,7 @@ label {
 }
 .standard-blog-content .blog-post-meta .tags > i {
     font-size: 18px;
-    color: #e1a798;
+    color: #FD8C6E;
     line-height: 0;
     display: block;
 }
@@ -3126,7 +3126,7 @@ label {
     margin-bottom: 20px;
 }
 .standard-blog-content > .title a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .standard-blog-content p {
     margin-bottom: 27px;
@@ -3233,7 +3233,7 @@ label {
     margin-bottom: 10px;
 }
 .rc-post-content .title a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .rc-post-meta > ul {
     display: flex;
@@ -3250,11 +3250,11 @@ label {
     margin-right: 0;
 }
 .rc-post-meta > ul > li i {
-    color: #e1a798;
+    color: #FD8C6E;
     margin-right: 5px;
 }
 .rc-post-meta > ul > li a {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .sidebar-cat-list ul li {
     padding-bottom: 13px;
@@ -3359,7 +3359,7 @@ label {
     top: 10px;
     width: 7px;
     height: 7px;
-    background: #e1a798;
+    background: #FD8C6E;
     border-radius: 50%;
 }
 .blog-details-list ul li a {
@@ -3369,7 +3369,7 @@ label {
     text-decoration: underline;
 }
 .blog-details-list ul li a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .blog-details-list ul li + li {
     margin-top: 13px;
@@ -3502,7 +3502,7 @@ label {
 	margin-left: 15px;
 }
 .blog-next-prev ul li a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .comment-reply-box {
     background: #f4f1ea;
@@ -3601,7 +3601,7 @@ label {
     margin-bottom: 0;
 }
 .contact-title .title > span {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .contact-wrap-content p {
     font-size: 14px;
@@ -3619,7 +3619,7 @@ label {
     opacity: 1;
 }
 .contact-form .form-grp label span {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .contact-form .form-grp input,
 .contact-form .form-grp textarea {
@@ -3695,7 +3695,7 @@ label {
     border-radius: 50%;
     margin-right: 15px;
     font-size: 16px;
-    color: #e1a798;
+    color: #FD8C6E;
     box-shadow: 0px 2px 14.88px 1.12px rgba(97, 83, 252, 0.11);
 }
 .contact-info-list .content {
@@ -3819,7 +3819,7 @@ label {
 }
 .newsletter-form [type=submit] {
     background: #fff;
-    color: #e1a798;
+    color: #FD8C6E;
     min-width: 219px;
     text-align: center;
     justify-content: center;
@@ -3842,7 +3842,7 @@ label {
 
 /* 21. Footer */
 .footer-bg {
-    background-image: url(../img/bg/footer_bg.jpg);
+    /*background-image: url(../img/bg/footer_bg.jpg);*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -3887,7 +3887,7 @@ label {
     width: 35px;
     height: 35px;
     flex: 0 0 35px;
-    background: #e1a798;
+    background: #FD8C6E;
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -3903,13 +3903,13 @@ label {
 }
 .footer-contact .content .title > a:hover,
 .footer-social ul li a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
 }
 .footer-contact .content > span {
     display: block;
     font-size: 12px;
     text-transform: uppercase;
-    color: #e1a798;
+    color: #FD8C6E;
     font-weight: 900;
     font-family: 'Nunito', sans-serif;
 }
@@ -3944,7 +3944,7 @@ label {
     color: #676666;
 }
 .footer-widget .fw-link ul li a:hover {
-    color: #e1a798;
+    color: #FD8C6E;
     padding-left: 5px;
 }
 .fw-insta ul {
@@ -3997,6 +3997,7 @@ label {
     position: relative;
     padding-left: 15px;
 }
+/*
 .copyright-text p::before {
     content: "|";
     position: absolute;
@@ -4006,6 +4007,7 @@ label {
     color: #d5d5d5;
     font-size: 14px;
 }
+*/
 .footer-lang .dropdown {
     text-align: right;
 }
