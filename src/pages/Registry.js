@@ -35,6 +35,7 @@ function Registry() {
       const { access_token } = response.data;
 	  console.log("AC"+access_token);
 
+	  /*
       // Fetch user profile using the access token
       const profileResponse = await axios.get(
         `https://graph.instagram.com/me?fields=id,username&access_token=${access_token}`
@@ -42,6 +43,7 @@ function Registry() {
 
       //info del usuario
       console.log(profileResponse.data);
+	  */
     } catch (error) {
       console.error("Error fetching user profile:", error);
     }
