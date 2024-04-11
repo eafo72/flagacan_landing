@@ -2,7 +2,8 @@ import { React, useEffect } from "react";
 
 import axios from "axios";
 
-import clienteAxios from "../config/axios";
+import {clienteAxios, clienteAxios2 } from "../config/axios";
+
 
 import { toast } from "sonner";
 
@@ -21,8 +22,8 @@ function Registry() {
 
   const fetchUserProfile = async (code) => {
     try {
-      const response = await axios.post(
-        `https://api.instagram.com/oauth/access_token`,
+      const response = await clienteAxios2.post(
+        `/oauth/access_token`,
         {
           client_id,
           client_secret,

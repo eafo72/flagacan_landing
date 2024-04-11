@@ -5,4 +5,16 @@ const clienteAxios = axios.create({
  //baseURL: "http://localhost:4000"
 })
 
-export default clienteAxios
+const clienteAxios2 = axios.create({
+    headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/json',
+    },
+    baseURL: "https://api.instagram.com"
+   })
+
+export default  {clienteAxios, clienteAxios2}
+
+
+
+
