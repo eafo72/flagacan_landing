@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Aviso() {
+function Success() {
 
 
   return (
@@ -18,4 +18,4 @@ function Aviso() {
   )
 }
 
-export default Aviso;
+export default Success;
