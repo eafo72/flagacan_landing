@@ -1,4 +1,7 @@
-import React from "react";
+
+import { React,  useEffect } from "react";
+
+import axios from "axios"
 
 import clienteAxios from "../config/axios";
 
@@ -14,19 +17,58 @@ function Newsletter(){
     toast.success(mensaje);
   };
 
+  const client_id = '451501287304003';
+  const client_secret = "7253909d53e1ec5617c5e30de36cf4ce";
+  const redirect_uri = 'https://landing.flagasamascotas.com';
+  const scope = 'user_profile'; // Requested scope
 
   const authenticateWithInstagram = () => {
-    // Replace with your own client ID and redirect URI
-    const clientId = '451501287304003';
-    const redirectUri = 'https://landing.flagasamascotas.com/success';
-    const scope = 'user_profile'; // Requested scope
-
     // Construct the authorization URL
-    const authUrl = `https://api.instagram.com/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scope}&response_type=code`;
+    const authUrl = `https://api.instagram.com/oauth/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&scope=${scope}&response_type=code`;
 
     // Redirect the user to the authorization URL
     window.location.href = authUrl;
 }
+
+
+const fetchUserProfile = async (code) => {
+  try {
+    const response = await axios.post(
+      `https://api.instagram.com/oauth/access_token`,
+      {
+        client_id,
+        client_secret,
+        grant_type: 'authorization_code',
+        redirect_uri,
+        code: code,
+      }
+    );
+    
+    const { access_token } = response.data;
+
+    // Fetch user profile using the access token
+    const profileResponse = await axios.get(`https://graph.instagram.com/me?fields=id,username&access_token=${access_token}`);
+
+    //info del usuario
+    console.log(profileResponse.data);
+
+  } catch (error) {
+    console.error('Error fetching user profile:', error);
+  }
+};
+
+const handleAuthCallback = () => {
+  const code = new URLSearchParams(window.location.search).get('code');
+  if (code) {
+    fetchUserProfile(code);
+  }
+};
+
+
+  // Check if the URL contains an authorization code on component mount
+  useEffect(() => {
+    handleAuthCallback();
+  }, []);
 
   const sendData = async () => {
     try {
@@ -64,6 +106,7 @@ function Newsletter(){
                 </div>
                 <div className="newsletter-form">
                     <button onClick={() => authenticateWithInstagram()} className="btn">Registrarme</button>
+                   
                 </div>
                 <div className="newsletter-shape"><img src="img/images/newsletter_shape01.png" alt="" /></div>
                 <div className="newsletter-shape shape-two"><img src="img/images/newsletter_shape02.png" alt="" /></div>

@@ -9,7 +9,7 @@ function Success() {
 	
 		  <main>
 			<div align="center">
-				<h3>Aviso de Privacidad</h3>
+				<h3>Success</h3>
 			</div>
 			 	
 				
