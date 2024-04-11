@@ -14,6 +14,20 @@ function Newsletter(){
     toast.success(mensaje);
   };
 
+
+  const authenticateWithInstagram = () => {
+    // Replace with your own client ID and redirect URI
+    const clientId = '451501287304003';
+    const redirectUri = 'https://landing.flagasamascotas.com/success';
+    const scope = 'user_profile'; // Requested scope
+
+    // Construct the authorization URL
+    const authUrl = `https://api.instagram.com/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scope}&response_type=code`;
+
+    // Redirect the user to the authorization URL
+    window.location.href = authUrl;
+}
+
   const sendData = async () => {
     try {
       const res = await clienteAxios.get(`/registrar.php`);
@@ -49,9 +63,7 @@ function Newsletter(){
                   <p><span>*</span> Obligatorio para poder participar.</p>
                 </div>
                 <div className="newsletter-form">
-                    <input type="text" placeholder="Usuario de instagram" />
-                    <input type="text" placeholder="Link de tu publicación" />
-                    <button onClick={() => sendData()} className="btn">Registrarme</button>
+                    <button onClick={() => authenticateWithInstagram()} className="btn">Registrarme</button>
                 </div>
                 <div className="newsletter-shape"><img src="img/images/newsletter_shape01.png" alt="" /></div>
                 <div className="newsletter-shape shape-two"><img src="img/images/newsletter_shape02.png" alt="" /></div>
