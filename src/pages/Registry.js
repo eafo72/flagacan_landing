@@ -31,6 +31,7 @@ function Registry() {
           code: code,
         }
       );
+	  console.log(response);
 
       const { access_token } = response.data;
 	  console.log("AC"+access_token);
