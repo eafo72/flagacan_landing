@@ -6,6 +6,7 @@ import './App.css';
 import Home from './pages/Home';
 import Aviso from './pages/Aviso';
 import Success from './pages/Success';
+import Registry from './pages/Registry';
 
 import ScrollToTopRoute from './ScrollToTopRoute'
 
@@ -25,6 +26,9 @@ function App() {
           </ScrollToTopRoute>
           <ScrollToTopRoute exact={true} path='/success'>
             <Success/>
+          </ScrollToTopRoute>
+          <ScrollToTopRoute exact={true} path='/registry'>
+            <Registry/>
           </ScrollToTopRoute>
        </Switch>
        <Footer/>
