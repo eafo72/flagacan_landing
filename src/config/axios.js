@@ -13,7 +13,7 @@ const clienteAxios2 = axios.create({
     baseURL: "https://api.instagram.com"
    })
 
-export default  {clienteAxios, clienteAxios2}
+export  {clienteAxios, clienteAxios2}
 
 
 
