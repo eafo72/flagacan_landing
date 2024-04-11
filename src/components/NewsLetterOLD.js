@@ -2,7 +2,7 @@ import React from "react";
 
 function Newsletter() {
   const client_id = "451501287304003";
-  const redirect_uri = "https://landing.flagasamascotas.com";
+  const redirect_uri = "https://landing.flagasamascotas.com/registry";
   const scope = "user_profile"; // Requested scope
 
   const authenticateWithInstagram = () => {
