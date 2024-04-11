@@ -27,6 +27,7 @@ function Newsletter() {
       headers: {
         "Cache-Control": "no-cache",
         "Content-Type": "application/x-www-form-urlencoded",
+        "Access-Control-Allow-Origin": "*",
       },
       data: JSON.stringify({
         client_id,
