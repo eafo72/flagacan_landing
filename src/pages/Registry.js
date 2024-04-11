@@ -33,7 +33,7 @@ function Registry() {
       );
 
       const { access_token } = response.data;
-	  console.log(access_token);
+	  console.log("AC"+access_token);
 
       // Fetch user profile using the access token
       const profileResponse = await axios.get(
