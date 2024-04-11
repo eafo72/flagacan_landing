@@ -19,7 +19,7 @@ function Newsletter(){
 
   const client_id = '451501287304003';
   const client_secret = "7253909d53e1ec5617c5e30de36cf4ce";
-  const redirect_uri = 'https://landing.flagasamascotas.com/success';
+  const redirect_uri = 'https://landing.flagasamascotas.com/#/success';
   const scope = 'user_profile'; // Requested scope
 
   const authenticateWithInstagram = () => {
