@@ -24,6 +24,10 @@ function Newsletter() {
     const config = {
       url: "https://api.instagram.com/oauth/access_token",
       method: "POST",
+      headers: {
+        "Cache-Control": "no-cache",
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
       data: JSON.stringify({
         client_id,
         client_secret,
