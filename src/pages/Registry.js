@@ -2,7 +2,7 @@ import { React, useEffect } from "react";
 
 import axios from "axios";
 
-import {clienteAxios, clienteAxios2 } from "../config/axios";
+import clienteAxios from "../config/axios";
 
 
 import { toast } from "sonner";
@@ -21,17 +21,28 @@ function Registry() {
   };
 
   const fetchUserProfile = async (code) => {
+
+
+	const config = {
+		url: 'https://api.instagram.com/oauth/access_token',
+		method: 'POST',
+		headers: {
+			'Access-Control-Allow-Origin': '*',
+			'Access-Control-Allow-Headers': 'POST, GET, PUT, DELETE, OPTIONS, HEAD, Authorization, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, Access-Control-Allow-Origin',
+			'Content-Type': 'application/json',
+		},
+		data: JSON.stringify({
+			client_id,
+			client_secret,
+			grant_type: "authorization_code",
+			redirect_uri,
+			code: code,
+		  }),
+	};
+	
     try {
-      const response = await clienteAxios2.post(
-        `/oauth/access_token`,
-        {
-          client_id,
-          client_secret,
-          grant_type: "authorization_code",
-          redirect_uri,
-          code: code,
-        }
-      );
+      const response = await axios(config)
+
 	  console.log(response);
 
       const { access_token } = response.data;
