@@ -1,6 +1,6 @@
 import React from "react";
 
-import  InstagramLogin from "@amraneze/react-instagram-login"
+import  InstagramLogin from "@amraneze/react-instagram-login";
 
 function Registry() {
   const responseInstagram = (response) => {
