@@ -2,11 +2,15 @@ import { React, useState } from "react";
 
 import { Link } from "react-router-dom";
 
+import Modal from "react-modal";
+
 import axios from "axios";
 
 import { toast } from "sonner";
 
 function Newsletter() {
+
+  const [showSuccessModal, setSuccessModal] = useState(false);
  
 
   const mostrarMensaje = (mensaje) => {
@@ -42,7 +46,9 @@ function Newsletter() {
         setEmail(null);
         document.getElementById("user").value = "";
         document.getElementById("email").value = "";
-        mostrarAviso("¡Felicidades! has quedado registrado, te deseamos mucha suerte");  
+
+        setSuccessModal(true);
+        //mostrarAviso("¡Felicidades! has quedado registrado, te deseamos mucha suerte");  
   
         
       } catch (error) {
@@ -61,6 +67,24 @@ function Newsletter() {
     setAgree(!agree);
     // Don't miss the exclamation mark
   }
+
+
+  function closeModal() {
+    setSuccessModal(false);
+  }
+
+  const modalCustomStyles = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      animation: "fadeIn 1s",
+    },
+    overlay: {zIndex: 1000}
+  };
 
 
   return (
@@ -114,6 +138,24 @@ function Newsletter() {
           </div>
         </div>
       </div>
+      <Modal
+        isOpen={showSuccessModal}
+        style={modalCustomStyles}
+        ariaHideApp={false}
+      >
+        <h4>¡Felicidades! has quedado registrado, te deseamos mucha suerte</h4>
+        
+         <div align="center">
+           <button
+              className="btn btn_primary btn_rounded text-uppercase"
+              style={{ padding: "15px", margin: "10px" }}
+              onClick={closeModal}
+            >
+              Cerrar
+            </button>
+          </div>
+         
+      </Modal>
     </div>
   );
 }
