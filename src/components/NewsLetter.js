@@ -48,7 +48,7 @@ function Newsletter() {
     try {
       const response = await axios(config);
 
-      //console.log(response);
+      console.log(response);
 
       mostrarAviso("¡FELICIDADES! "+response.username+" has quedado registrado.");
 
