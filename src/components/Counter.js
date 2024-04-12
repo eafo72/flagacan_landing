@@ -2,7 +2,7 @@ import React from 'react';
 import Countdown from 'react-countdown-simple';
 
 
-function Counter() {
+function Counter({faqRef }) {
    
   /*
   const deadLine = new Date(
@@ -27,6 +27,7 @@ function Counter() {
       </div>
       <div className="row justify-content-center">
         <div className="col-lg-12 col-md-12 col-sm-12">
+          <div ref={faqRef}></div>
 
           <div className="counter-item">
             <h2 className="count">
@@ -40,6 +41,7 @@ function Counter() {
       </div>
     </div>
   </section>
+  
 
   )
 }

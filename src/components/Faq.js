@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 
 
-function Faq({ afterElment }) {
+function Faq({ afterElment,registerRef }) {
   useEffect(()=>{
 
 
@@ -19,7 +19,7 @@ function Faq({ afterElment }) {
   
   return (
 
-    <section id="faq" className={afterElment + " faq-bg"}>
+    <section  id="faq" className={afterElment + " faq-bg"}>
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-xl-7 col-lg-9">
@@ -76,6 +76,7 @@ function Faq({ afterElment }) {
               </div>
               <div className="card">
                 <div className="card-header" id="headingTwo">
+                  <div ref={registerRef}></div>
                   <h2 className="mb-0">
                     <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     ¿Cómo Ganar?
@@ -84,13 +85,14 @@ function Faq({ afterElment }) {
                 </div>
                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                   <div className="card-body">
-                  Invita a tus amigos, familiares y seguidores a votar por tu foto. ¡La foto con el mayor número de likes al 20 de Abril será la ganadora!.<br/>
+                  Invita a tus amigos, familiares y seguidores a seguir nuestra página y a votar por tu foto. ¡La foto con el mayor número de likes al 20 de Abril será la ganadora!.<br/>
                   El día 21 anunciaremos al ganador en nuestras redes y la página del concurso.
                   </div>
                 </div>
               </div>
               <div className="card">
                 <div className="card-header" id="headingThree">
+                  
                   <h2 className="mb-0">
                     <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Premio
@@ -104,8 +106,10 @@ function Faq({ afterElment }) {
                   Fecha de Finalización: 20 de Abril se cierra el conteo y el 21 se anuncia el ganador<br/>
                   ¡No pierdas la oportunidad de hacer brillar a tu peludo amigo y ganar un gran premio con Flagacan!.<br/>
                   </div>
+                  
                 </div>
               </div>
+              
             </div>
           </div>
         </div>

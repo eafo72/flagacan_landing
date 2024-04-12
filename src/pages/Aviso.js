@@ -8,7 +8,7 @@ function Aviso() {
 
 	
 		  <main>
-			<div align="center">
+			<div align="center" style={{paddingTop:"40px"}}>
 				<h3>Aviso de Privacidad</h3>
 			</div>
 			 	

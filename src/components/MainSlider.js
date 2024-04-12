@@ -1,9 +1,8 @@
 import React from "react";
 import Slider from 'react-slick';
-import {Link}  from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 
-function MainSlider() {
+
+function MainSlider({registerRef, faqRef}) {
     const settings = {
         autoplay: false,
 		autoplaySpeed: 10000,
@@ -31,9 +30,21 @@ function MainSlider() {
                   <div className="slider-desc">
                     <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Concursa con la foto de tu perrito y gana alimento (Bulto de 25 Kg)</p>
                   </div>
-                  <HashLink style={{marginBottom:"10px"}} to="#registro" className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">Registrate<img src="img/icon/w_pawprint.png" alt="" /></HashLink>
+                  <button style={{marginBottom:"10px"}} className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
+                    onClick={() => {
+                      registerRef.current?.scrollIntoView({
+                        behavior: 'smooth'
+                      });
+                    }}               
+                  >Regístrate <img src="img/icon/w_pawprint.png" alt="" /></button>
                   <br/>
-                  <HashLink to="#faq" className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">Bases del concurso<img src="img/icon/w_pawprint.png" alt="" /></HashLink>
+                  <button  className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
+                    onClick={() => {
+                      faqRef.current?.scrollIntoView({
+                        behavior: 'smooth'
+                      });
+                    }}               
+                  >Bases del concurso <img src="img/icon/w_pawprint.png" alt="" /></button>
                 </div>
               </div>
             </div>
@@ -53,9 +64,21 @@ function MainSlider() {
                   <div className="slider-desc">
                     <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Concursa con la foto de tu perrito y gana alimento (Bulto de 25 Kg)</p>
                   </div>
-                  <HashLink style={{marginBottom:"10px"}} to="#registro" className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">Registrate<img src="img/icon/w_pawprint.png" alt="" /></HashLink>
+                  <button style={{marginBottom:"10px"}} className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
+                    onClick={() => {
+                      registerRef.current?.scrollIntoView({
+                        behavior: 'smooth'
+                      });
+                    }}               
+                  >Regístrate <img src="img/icon/w_pawprint.png" alt="" /></button>
                   <br/>
-                  <HashLink to="#faq" className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">Bases del concurso<img src="img/icon/w_pawprint.png" alt="" /></HashLink>
+                  <button  className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
+                    onClick={() => {
+                      faqRef.current?.scrollIntoView({
+                        behavior: 'smooth'
+                      });
+                    }}               
+                  >Bases del concurso <img src="img/icon/w_pawprint.png" alt="" /></button>
                 </div>
               </div>
             </div>

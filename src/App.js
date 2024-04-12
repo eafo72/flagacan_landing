@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import './App.css';
 import Home from './pages/Home';
 import Aviso from './pages/Aviso';
+import Terminos from './pages/Terminos';
 import Success from './pages/Success';
 
 
@@ -23,6 +24,9 @@ function App() {
           </ScrollToTopRoute>
           <ScrollToTopRoute exact={true} path='/aviso'>
             <Aviso/>
+          </ScrollToTopRoute>
+          <ScrollToTopRoute exact={true} path='/terminos'>
+            <Terminos/>
           </ScrollToTopRoute>
           <ScrollToTopRoute exact={true} path='/success'>
             <Success/>

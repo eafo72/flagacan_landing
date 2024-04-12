@@ -8,7 +8,7 @@ function Success() {
 
 	
 		  <main>
-			<div align="center">
+			<div align="center" style={{paddingTop:"40px"}}>
 				<h3>Success</h3>
 			</div>
 			 	
