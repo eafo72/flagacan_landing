@@ -1,16 +1,11 @@
-import { React, useEffect } from "react";
+import { React, useState } from "react";
 
 import axios from "axios";
-
-import clienteAxios from "../config/axios";
 
 import { toast } from "sonner";
 
 function Newsletter() {
-  const client_id = "451501287304003";
-  const client_secret = "7253909d53e1ec5617c5e30de36cf4ce";
-  const redirect_uri = "https://landing.flagasamascotas.com/";
-  const scope = "user_profile"; // Requested scope
+ 
 
   const mostrarMensaje = (mensaje) => {
     toast.error(mensaje);
@@ -20,46 +15,40 @@ function Newsletter() {
     toast.success(mensaje);
   };
 
-  const authenticateWithInstagram = () => {
-    // Construct the authorization URL
-    const authUrl = `https://api.instagram.com/oauth/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&scope=${scope}&response_type=code`;
+  const [user, setUser] = useState();
+  const [email, setEmail] = useState();
 
-    // Redirect the user to the authorization URL
-    window.location.href = authUrl;
-  };
+  const sendData = async () => {
+    if(user === null || user === undefined){
+      mostrarMensaje("Debes escribir tu usuario de instagram");
+    }else if(email === null || email === undefined){
+      mostrarMensaje("Debes escribir tu correo");
+    }else{
 
-  const fetchUserProfile = async (code) => {
-    try {
+      //console.log(user)
+      //console.log(email)
+
+      try {
       
-      const response = await axios.post("https://api.mellfashionboutique.com/instagram/userinfo", {code});
-
-      if(response.data.username == null || response.data.username == undefined){
-        console.log(response);
-        mostrarMensaje("Lo sentimos, hubo un error al intentar registrarte");
-      }else{
-        mostrarAviso("¡FELICIDADES! "+response.data.username+" has quedado registrado.");
-      }  
-
-      
-    } catch (error) {
-      console.error("Error fetching user profile:", error);
-      mostrarMensaje(error);
-    }
-  };
-
-  const handleAuthCallback = () => {
-    const code = new URLSearchParams(window.location.search).get("code");
-    if (code) {
-      fetchUserProfile(code);
-    }
-  };
-
-  // Check if the URL contains an authorization code on component mount
-  useEffect(() => {
-    handleAuthCallback();
-  }, []);
-
+        //const response = await axios.post("https://api.mellfashionboutique.com/instagram/adduser", {user,email});
+        const response = await axios.post("http://localhost:4000/instagram/adduser", {user,email});
+        //console.log(response);
+        mostrarAviso("¡Felicidades! has quedado registrado, te deseamos mucha suerte");  
   
+        
+      } catch (error) {
+        console.log(error);
+        mostrarMensaje(error.response.data.msg);
+      }
+
+      
+
+    }
+  };
+
+
+ 
+ 
 
   return (
     <div id="registro" className="newsletter-area pt-110 pb-110">
@@ -74,8 +63,11 @@ function Newsletter() {
                 </p>
               </div>
               <div className="newsletter-form">
+              
+                <input type="text"  placeholder="Escribe tu usuario de instagram.." onChange={(e) => setUser(e.target.value)} /> 
+                <input type="email" placeholder="Escribe tu correo..." onChange={(e) => setEmail(e.target.value)}/> 
                 <button
-                  onClick={() => authenticateWithInstagram()}
+                  onClick={() => sendData()}
                   className="btn"
                 >
                   Registrarme

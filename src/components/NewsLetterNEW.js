@@ -1,9 +1,24 @@
-import React from "react";
+import { React, useEffect } from "react";
+
+import axios from "axios";
+
+import clienteAxios from "../config/axios";
+
+import { toast } from "sonner";
 
 function Newsletter() {
   const client_id = "451501287304003";
-  const redirect_uri = "https://landing.flagasamascotas.com/registry";
+  const client_secret = "7253909d53e1ec5617c5e30de36cf4ce";
+  const redirect_uri = "https://landing.flagasamascotas.com/";
   const scope = "user_profile"; // Requested scope
+
+  const mostrarMensaje = (mensaje) => {
+    toast.error(mensaje);
+  };
+
+  const mostrarAviso = (mensaje) => {
+    toast.success(mensaje);
+  };
 
   const authenticateWithInstagram = () => {
     // Construct the authorization URL
@@ -12,6 +27,39 @@ function Newsletter() {
     // Redirect the user to the authorization URL
     window.location.href = authUrl;
   };
+
+  const fetchUserProfile = async (code) => {
+    try {
+      
+      const response = await axios.post("https://api.mellfashionboutique.com/instagram/userinfo", {code});
+
+      if(response.data.username == null || response.data.username == undefined){
+        console.log(response);
+        mostrarMensaje("Lo sentimos, hubo un error al intentar registrarte");
+      }else{
+        mostrarAviso("¡FELICIDADES! "+response.data.username+" has quedado registrado.");
+      }  
+
+      
+    } catch (error) {
+      console.error("Error fetching user profile:", error);
+      mostrarMensaje(error);
+    }
+  };
+
+  const handleAuthCallback = () => {
+    const code = new URLSearchParams(window.location.search).get("code");
+    if (code) {
+      fetchUserProfile(code);
+    }
+  };
+
+  // Check if the URL contains an authorization code on component mount
+  useEffect(() => {
+    handleAuthCallback();
+  }, []);
+
+  
 
   return (
     <div id="registro" className="newsletter-area pt-110 pb-110">
