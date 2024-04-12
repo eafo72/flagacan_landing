@@ -25,11 +25,6 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@amraneze/react-instagram-login@3.0.5":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@amraneze/react-instagram-login/-/react-instagram-login-3.0.5.tgz#b530d33d63f27a2ba89d95de7d460d53298593cc"
-  integrity sha512-uw7kk4aAj/000Lta5/3AHLT4eulSlvkb3x+KDqWdccbojFnK3a3z0dqsvyaT2Jx00ArXKhIcMXrVMN134bm0Yw==
-
 "@apideck/better-ajv-errors@^0.3.1":
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/@apideck/better-ajv-errors/-/better-ajv-errors-0.3.6.tgz#957d4c28e886a64a8141f7522783be65733ff097"

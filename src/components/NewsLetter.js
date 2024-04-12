@@ -9,8 +9,16 @@ import { toast } from "sonner";
 function Newsletter() {
   const client_id = "451501287304003";
   const client_secret = "7253909d53e1ec5617c5e30de36cf4ce";
-  const redirect_uri = "https://landing.flagasamascotas.com";
+  const redirect_uri = "https://landing.flagasamascotas.com/";
   const scope = "user_profile"; // Requested scope
+
+  const mostrarMensaje = (mensaje) => {
+    toast.error(mensaje);
+  };
+
+  const mostrarAviso = (mensaje) => {
+    toast.success(mensaje);
+  };
 
   const authenticateWithInstagram = () => {
     // Construct the authorization URL
@@ -22,12 +30,11 @@ function Newsletter() {
 
   const fetchUserProfile = async (code) => {
     const config = {
-      url: "https://api.mellfashionboutique.com/instagram/usertoken",
+      url: "https://api.mellfashionboutique.com/instagram/userinfo",
       method: "POST",
       headers: {
         "Cache-Control": "no-cache",
         "Content-Type": "application/x-www-form-urlencoded",
-        "Access-Control-Allow-Origin": "https://landing.flagasamascotas.com",
       },
       data: JSON.stringify({
         client_id,
@@ -41,22 +48,14 @@ function Newsletter() {
     try {
       const response = await axios(config);
 
-      console.log(response);
+      //console.log(response);
 
-      const { access_token } = response.data;
-      console.log("AC" + access_token);
+      mostrarAviso("¡FELICIDADES! "+response.username+" has quedado registrado.");
 
-      /*
-        // Fetch user profile using the access token
-        const profileResponse = await axios.get(
-          `https://graph.instagram.com/me?fields=id,username&access_token=${access_token}`
-        );
-  
-        //info del usuario
-        console.log(profileResponse.data);
-      */
+      
     } catch (error) {
       console.error("Error fetching user profile:", error);
+      mostrarMensaje(error);
     }
   };
 
@@ -72,31 +71,7 @@ function Newsletter() {
     handleAuthCallback();
   }, []);
 
-  const mostrarMensaje = (mensaje) => {
-    toast.error(mensaje);
-  };
-
-  const mostrarAviso = (mensaje) => {
-    toast.success(mensaje);
-  };
-
-  const sendData = async () => {
-    try {
-      const res = await clienteAxios.get(`/registrar.php`);
-      console.log(res);
-
-      /*
-			setTitle(res.data.single.title);
-			setWords(res.data.single.words);
-			setDescription(res.data.single.description);
-			*/
-
-      mostrarAviso("¡FELICIDADES! has quedado registrado.");
-    } catch (error) {
-      mostrarMensaje(error);
-      console.log(error);
-    }
-  };
+  
 
   return (
     <div id="registro" className="newsletter-area pt-110 pb-110">
