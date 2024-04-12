@@ -64,11 +64,11 @@ function Faq({ afterElment }) {
                   <div className="card-body">
                   (Importante realizar los siguientes pasos)<br/>
                   <ul style={{listStyle:"none"}}>
-                    <li>1. Estar en la zona metropolitana de Guadalajara</li>
-                    <li>2. Síguenos en nuestra cuenta de Instagram y Facebook</li>
-                    <li>3. Sube la mejor foto de tu peludo amigo a Instagram y etiqueta la cuenta oficial de @Flagacan con el hashtag #momentosflagacan</li>
+                    <li>1. Estar en la zona metropolitana de Guadalajara.</li>
+                    <li>2. Síguenos en nuestra cuenta de Instagram y Facebook.</li>
+                    <li>3. Sube la mejor foto de tu peludo amigo a Instagram y etiqueta la cuenta oficial de @Flagacan con el hashtag #momentosflagacan.</li>
                     <li>4. Regístrate en la página del concurso <a href="https://landing.flagasamascotas.com" target="_blank" rel="noreferrer">landing.flagasamascotas.com</a></li>
-                    <li>5. ¡Listo! Estaremos mostrando al ganador en la página y nuestras redes</li>
+                    <li>5. ¡Listo! Estaremos mostrando al ganador en la página y nuestras redes.</li>
                   </ul>
 
                   </div>
@@ -84,7 +84,7 @@ function Faq({ afterElment }) {
                 </div>
                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                   <div className="card-body">
-                  Invita a tus amigos, familiares y seguidores a votar por tu foto. ¡La foto con el mayor número de likes al 20 de Abril será la ganadora!<br/>
+                  Invita a tus amigos, familiares y seguidores a votar por tu foto. ¡La foto con el mayor número de likes al 20 de Abril será la ganadora!.<br/>
                   El día 21 anunciaremos al ganador en nuestras redes y la página del concurso.
                   </div>
                 </div>
@@ -100,9 +100,9 @@ function Faq({ afterElment }) {
                 <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                   <div className="card-body">
                   El dueño del perro cuya foto haya recibido la mayor cantidad de likes ganará alimento Flagacan equivalente a 3 meses para su querido peludo.<br/>
-                  Fecha de Inicio: 10 de Abril<br/>
+                  Fecha de Inicio: 12 de Abril.<br/>
                   Fecha de Finalización: 20 de Abril se cierra el conteo y el 21 se anuncia el ganador<br/>
-                  ¡No pierdas la oportunidad de hacer brillar a tu peludo amigo y ganar un gran premio con Flagacan!<br/>
+                  ¡No pierdas la oportunidad de hacer brillar a tu peludo amigo y ganar un gran premio con Flagacan!.<br/>
                   </div>
                 </div>
               </div>
