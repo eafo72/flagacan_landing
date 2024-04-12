@@ -22,7 +22,7 @@ function Newsletter() {
 
   const fetchUserProfile = async (code) => {
     const config = {
-      url: "https://api.instagram.com/oauth/access_token",
+      url: "https://api.mellfashionboutique.com/instagram/usertoken",
       method: "POST",
       headers: {
         "Cache-Control": "no-cache",

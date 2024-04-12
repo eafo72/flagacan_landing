@@ -1,11 +1,14 @@
 import React from "react";
 
-import  InstagramLogin from "@amraneze/react-instagram-login";
+import  {InstagramLogin} from "@amraneze/react-instagram-login";
 
 function Registry() {
   const responseInstagram = (response) => {
+    console.log("eii");
     console.log(response);
   };
+
+  const redirectUrl = 'https://landing.flagasamascotas.com/' // You can use ngrok to expose your localhost
 
   return (
     <main>
@@ -14,9 +17,11 @@ function Registry() {
 
         <InstagramLogin
           clientId="451501287304003"
-          buttonText="Login"
           onSuccess={responseInstagram}
           onFailure={responseInstagram}
+          redirectUri={redirectUrl}
+          scope='user_profile'
+         
         />
       </div>
     </main>
