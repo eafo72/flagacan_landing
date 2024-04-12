@@ -27,7 +27,7 @@ function Newsletter() {
       headers: {
         "Cache-Control": "no-cache",
         "Content-Type": "application/x-www-form-urlencoded",
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "https://landing.flagasamascotas.com",
       },
       data: JSON.stringify({
         client_id,
