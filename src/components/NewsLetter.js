@@ -33,9 +33,12 @@ function Newsletter() {
       
       const response = await axios.post("https://api.mellfashionboutique.com/instagram/userinfo", {code});
 
-      console.log(response);
-
-      mostrarAviso("¡FELICIDADES! "+response.data.username+" has quedado registrado.");
+      if(response.data.username == null || response.data.username == undefined){
+        console.log(response);
+        mostrarMensaje("Lo sentimos, hubo un error al intentar registrarte");
+      }else{
+        mostrarAviso("¡FELICIDADES! "+response.data.username+" has quedado registrado.");
+      }  
 
       
     } catch (error) {
