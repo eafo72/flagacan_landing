@@ -35,7 +35,7 @@ function Newsletter() {
 
       console.log(response);
 
-      mostrarAviso("¡FELICIDADES! "+response.username+" has quedado registrado.");
+      mostrarAviso("¡FELICIDADES! "+response.data.username+" has quedado registrado.");
 
       
     } catch (error) {
