@@ -33,6 +33,8 @@ function Newsletter() {
         const response = await axios.post("https://api.mellfashionboutique.com/instagram/adduser", {user,email});
         //const response = await axios.post("http://localhost:4000/instagram/adduser", {user,email});
         //console.log(response);
+        setUser(null);
+        setEmail(null);
         mostrarAviso("¡Felicidades! has quedado registrado, te deseamos mucha suerte");  
   
         
@@ -64,8 +66,8 @@ function Newsletter() {
               </div>
               <div className="newsletter-form">
               
-                <input type="text"  placeholder="Escribe tu usuario de instagram.." onChange={(e) => setUser(e.target.value)} /> 
-                <input type="email" placeholder="Escribe tu correo..." onChange={(e) => setEmail(e.target.value)}/> 
+                <input type="text"  placeholder="Escribe tu usuario de instagram.." value={user} onChange={(e) => setUser(e.target.value)} /> 
+                <input type="email" placeholder="Escribe tu correo..." value={email} onChange={(e) => setEmail(e.target.value)}/> 
                 <button
                   onClick={() => sendData()}
                   className="btn"
