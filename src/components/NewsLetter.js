@@ -29,24 +29,9 @@ function Newsletter() {
   };
 
   const fetchUserProfile = async (code) => {
-    const config = {
-      url: "https://api.mellfashionboutique.com/instagram/userinfo",
-      method: "POST",
-      headers: {
-        "Cache-Control": "no-cache",
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      data: JSON.stringify({
-        client_id,
-        client_secret,
-        grant_type: "authorization_code",
-        redirect_uri,
-        code: code,
-      }),
-    };
-
     try {
-      const response = await axios(config);
+      
+      const response = await axios.post("https://api.mellfashionboutique.com/instagram/userinfo", {code});
 
       console.log(response);
 
