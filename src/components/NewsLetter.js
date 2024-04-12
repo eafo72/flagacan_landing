@@ -35,6 +35,8 @@ function Newsletter() {
         //console.log(response);
         setUser(null);
         setEmail(null);
+        document.getElementById("user").value = "";
+        document.getElementById("email").value = "";
         mostrarAviso("¡Felicidades! has quedado registrado, te deseamos mucha suerte");  
   
         
@@ -66,8 +68,8 @@ function Newsletter() {
               </div>
               <div className="newsletter-form">
               
-                <input type="text"  placeholder="Escribe tu usuario de instagram.." value={user} onChange={(e) => setUser(e.target.value)} /> 
-                <input type="email" placeholder="Escribe tu correo..." value={email} onChange={(e) => setEmail(e.target.value)}/> 
+                <input id="user" type="text"  placeholder="Escribe tu usuario de instagram.."  onChange={(e) => setUser(e.target.value)} /> 
+                <input id="email" type="email" placeholder="Escribe tu correo..."  onChange={(e) => setEmail(e.target.value)}/> 
                 <button
                   onClick={() => sendData()}
                   className="btn"
