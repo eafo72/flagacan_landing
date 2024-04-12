@@ -16,7 +16,7 @@ function Footer() {
 
           <div className="col-12">
             <div align="center" className="footer-widget">
-              <h4 className="fw-title">Fotos participantes</h4>
+              
               <div style={{padding:"60px 0"}}>
                 <h4>Aquí anunciaremos al ganador</h4>
               </div>  
@@ -40,7 +40,7 @@ function Footer() {
           </div>
           <div className="col-md-5">
               <ul className="header-top-social">
-                <li style={{color:"#d5d5d5"}} className="follow">Siguenos en :</li>
+                <li style={{color:"#d5d5d5"}} className="follow">Síguenos en :</li>
                 <li><a href="https://www.facebook.com/profile.php?id=61555959194964&mibextid=ZbWKwL" target="_blank"><i style={{color:"#d5d5d5"}} className="fab fa-facebook-f" /></a></li>
                 <li><a href="https://www.instagram.com/flagacan" target="_blank"><i style={{color:"#d5d5d5"}} className="fab fa-instagram" /></a></li>
                 <li><a href="https://www.tiktok.com/@flagacan" target="_blank"><i style={{color:"#d5d5d5"}} className="fab fa-tiktok" /></a></li>

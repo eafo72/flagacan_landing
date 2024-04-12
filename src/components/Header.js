@@ -101,14 +101,14 @@ if ($('.menu-area li.menu-item-has-children ul').length) {
                 */}      
                 <div className="menu-wrap" style={{margin:"25px 0"}}>
                   <nav className="menu-nav show">
-                    <div className="logo"><Link to="/"><img src="img/logo/logo.png" alt="" /></Link></div>
+                    <div className="logo"><Link to="/"><img src="img/logo/logo_flagacan.svg" style={{width:"100px"}}alt="" /></Link></div>
                   </nav>
                 </div>
              
                 <div className="mobile-menu">
                   <nav className="menu-box">
                     <div className="close-btn"><i className="fas fa-times" /></div>
-                    <div className="nav-logo"><Link to="/"><img src="img/logo/logo.png" alt="" title='true' /></Link>
+                    <div className="nav-logo"><Link to="/"><img src="img/logo/logo_flagacan.svg" style={{width:"100px"}} alt="" title='true' /></Link>
                     </div>
                     <div className="menu-outer">
                   
