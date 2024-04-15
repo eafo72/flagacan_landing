@@ -9,7 +9,7 @@ function Counter({faqRef }) {
     new Date().setHours(new Date().getHours() + 1)
   ).toISOString()
  */
-  const deadLine = new Date('2024-04-23').toISOString()
+  const deadLine = new Date('2024-04-23 06:00:00').toISOString()
 
   const renderer = ({ days, hours, minutes, seconds }) =>
   <div style={{color:"#FD8C6E"}}>{days} días {hours}h : {minutes}m : {seconds}s</div>
