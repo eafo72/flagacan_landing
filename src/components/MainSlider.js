@@ -28,7 +28,8 @@ function MainSlider({registerRef, faqRef}) {
                     <h2 className="title" data-animation="fadeInUpBig" data-delay=".2s" data-duration="1.2s">¡Momentos<span>Flagacan</span>!</h2>
                   </div>
                   <div className="slider-desc">
-                    <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Concursa con la foto de tu perrito y gana alimento (Bulto de 25 Kg)</p>
+                    <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">🏆 ¡Atención zona metropolitana de Guadalajara!</p>
+                    <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Participa y gana un bulto de 25 kg de alimento Premium Flagacan (Adultos)</p>
                   </div>
                   <button style={{marginBottom:"10px"}} className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
                     onClick={() => {
@@ -62,7 +63,8 @@ function MainSlider({registerRef, faqRef}) {
                     <h2 className="title" data-animation="fadeInUpBig" data-delay=".2s" data-duration="1.2s">¡Momentos<span>Flagacan</span>!</h2>
                   </div>
                   <div className="slider-desc">
-                    <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Concursa con la foto de tu perrito y gana alimento (Bulto de 25 Kg)</p>
+                    <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">🏆 ¡Atención zona metropolitana de Guadalajara!</p>
+                    <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Participa y gana un bulto de 25 kg de alimento Premium Flagacan (Adultos)</p>
                   </div>
                   <button style={{marginBottom:"10px"}} className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
                     onClick={() => {

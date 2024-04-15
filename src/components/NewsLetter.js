@@ -96,10 +96,6 @@ function Newsletter() {
 
               <div className="newsletter-content">
                 <h2 className="title">Regístrate</h2>
-                <p>
-                  <span>*</span> Obligatorio para poder participar.
-                </p>
-
               </div>
               <div className="newsletter-form">
               
