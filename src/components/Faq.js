@@ -66,8 +66,8 @@ function Faq({ afterElment,registerRef }) {
                   <ul style={{listStyle:"none"}}>
                     <li>1. Vivir en la zona metropolitana de Guadalajara (Jalisco).</li>
                     <li>2. Síguenos en Instagram y Facebook: @Flagacan</li>
-                    <li>3. Sube una foto de tu perrito a tu perfil de  Instagram, etiqueta a @Flagacan y usa el hashtag MmomentosFlagacan.</li>
-                    <li>4. ¡Listo! Estaremos anunciando al ganador en la página <br/>
+                    <li>3. Sube una foto de tu perrito a tu perfil de  Instagram, etiqueta a @Flagacan y usa el hashtag MomentosFlagacan.</li>
+                    <li>4. ¡Listo! Estaremos anunciando al ganador en la página:<br/>
                         https://landing.flagasamascotas.com/
                     </li>
                   </ul>
