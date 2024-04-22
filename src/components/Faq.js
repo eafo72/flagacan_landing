@@ -86,8 +86,8 @@ function Faq({ afterElment,registerRef }) {
                 </div>
                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                   <div className="card-body">
-                  Invita a tus amigos, familiares y seguidores a votar por tu foto. ¡La foto con el mayor número de likes al 22 de Abril será la ganadora!.<br/>
-                  El día 23 anunciaremos al ganador en nuestras redes y la página del concurso.
+                  Invita a tus amigos, familiares y seguidores a votar por tu foto. ¡La foto con el mayor número de likes al 26 de Abril será la ganadora!.<br/>
+                  El día 27 anunciaremos al ganador en nuestras redes y la página del concurso.
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@ function Faq({ afterElment,registerRef }) {
                   <div className="card-body">
                   El dueño del perro cuya foto haya recibido la mayor cantidad de likes ganará alimento Flagacan equivalente a 3 meses para su querido peludo.<br/>
                   📅 Fecha de Inicio: 12 de Abril.<br/>
-                  📅 Fecha de Finalización: 22 de Abril se cierra el conteo y el 23 se anuncia el ganador<br/>
+                  📅 Fecha de Finalización: 26 de Abril se cierra el conteo y el 27 se anuncia el ganador<br/>
                   ¡No dejes pasar esta oportunidad de hacer brillar a tu peludo amigo con Flagacan!.<br/>
                   🌟 #Concurso #FlagacanGuadalajara #AlimentoPremium
                   </div>
