@@ -31,6 +31,7 @@ function MainSlider({registerRef, faqRef}) {
                     <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">🏆 ¡Atención zona metropolitana de Guadalajara!</p>
                     <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Participa y gana un bulto de 25 kg de alimento Premium Flagacan (Adultos)</p>
                   </div>
+                  {/*
                   <button style={{marginBottom:"10px"}} className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
                     onClick={() => {
                       registerRef.current?.scrollIntoView({
@@ -39,6 +40,7 @@ function MainSlider({registerRef, faqRef}) {
                     }}               
                   >Regístrate <img src="img/icon/w_pawprint.png" alt="" /></button>
                   <br/>
+                  */}
                   <button  className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
                     onClick={() => {
                       faqRef.current?.scrollIntoView({
@@ -66,6 +68,8 @@ function MainSlider({registerRef, faqRef}) {
                     <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">🏆 ¡Atención zona metropolitana de Guadalajara!</p>
                     <p className="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Participa y gana un bulto de 25 kg de alimento Premium Flagacan (Adultos)</p>
                   </div>
+
+                  {/*
                   <button style={{marginBottom:"10px"}} className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
                     onClick={() => {
                       registerRef.current?.scrollIntoView({
@@ -74,6 +78,7 @@ function MainSlider({registerRef, faqRef}) {
                     }}               
                   >Regístrate <img src="img/icon/w_pawprint.png" alt="" /></button>
                   <br/>
+                  */}
                   <button  className="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s"
                     onClick={() => {
                       faqRef.current?.scrollIntoView({
